@@ -1,0 +1,100 @@
+body {
+  background-image: url("/Acordin/images/th (1).jpg");
+  background-size: cover;
+  background-clip: border-box;
+}
+
+#test {
+  text-align: center;
+  font-size: 50px;
+  padding: 15px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section {
+  
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  /* background-color: orange; */
+  
+  
+
+}
+
+.sectionTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(8, 8, 8);
+  color: white;
+  padding: 0px 10px;
+  
+}
+
+.sectionPragraph {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  visibility: hidden;
+  transition: 1s;
+}
+
+.pragdDisplay {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(248, 244, 9, 0.788);
+  padding: 10px;
+  font-size: 30px;
+  visibility: visible;
+ 
+}
+
+.btn {
+  color: white;
+
+  font-size: 30px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: red;
+}
+
+.btnColor {
+  font-size: 30px;
+  font-weight: bold;
+  width: 40px;
+  height: 40px;
+  opacity: 0.8;
+  cursor: pointer;
+  background-color: rgb(58, 6, 248);
+  /* color: black; */
+}
+
+.footerCon {
+  text-align: center;
+  background-color: rgb(78, 235, 143);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footerPra {
+  color: white;
+  font-size: 30px;
+  font-family: monospace;
+  background-color: rgb(109, 241, 91);
+}
+
+.btn:hover {
+    background-color: blue;
+}
